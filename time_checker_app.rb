@@ -10,4 +10,4 @@ class TimeCheckerApp < DialTone
   end
 end
 
-Rack::Handler::Mongrel.run(TimeCheckerApp.new, {:Host => "127.0.0.1", :Port => 8080})
+#Rack::Handler::Mongrel.run(TimeCheckerApp.new, {:Host => "127.0.0.1", :Port => 8080})

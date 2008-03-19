@@ -1,6 +1,10 @@
 DialTone
 ========
 
-A minimalist Ruby web application framework used to demonstrate Rack (http://rack.rubyforge.org)
+A minimalist (and relatively useless) Ruby web application framework used to 
+demonstrate Rack (http://rack.rubyforge.org). Use the Rackup script to 
+launch the sample application:
+
+ruby time_checker_app.ru -p 8080
 
 nap -at- zerosum -dot- org

@@ -14,10 +14,7 @@ class DialTone
     @request = Rack::Request.new(env)
     @response = Rack::Response.new
 
-    path = env["PATH_INFO"]
-    path = "/"  if path.empty?
-    answer(path)
-
+    answer(@request.path_info)
     @response.finish
   end
 
